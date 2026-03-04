@@ -24,7 +24,7 @@ export default function ContactPage() {
 *Message:* ${formData.message}`;
 
     // Send to WhatsApp
-    window.open(`https://wa.me/918465079013?text=${whatsappMessage}`, '_blank');
+    window.open(`https://wa.me/919948027060?text=${whatsappMessage}`, '_blank');
     
     // Reset form
     setFormData({
@@ -67,8 +67,8 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-900 mb-1">Phone</h4>
-                    <p className="text-gray-600">+1 (234) 567-8900</p>
-                    <p className="text-gray-600">+1 (234) 567-8901</p>
+                    <p className="text-gray-600">+91 8465079013</p>
+                    <p className="text-gray-600">+91 9640497146</p>
                   </div>
                 </div>
 
@@ -78,8 +78,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-900 mb-1">Email</h4>
-                    <p className="text-gray-600">info@eduglobal.com</p>
-                    <p className="text-gray-600">admissions@eduglobal.com</p>
+                    <p className="text-gray-600">centuryeducationconsultancy@gmail.com</p>
                   </div>
                 </div>
 
@@ -89,8 +88,9 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-900 mb-1">Office</h4>
-                    <p className="text-gray-600">123 Education Street,</p>
-                    <p className="text-gray-600">New York, NY 10001</p>
+                    <p className="text-gray-600">2nd Floor ,Singapore Plaza</p>
+                    <p className="text-gray-600">4/14 Brodipeta, Guntur-522002</p>
+                    <p className="text-gray-600">Andhra Pradesh</p>
                   </div>
                 </div>
 
@@ -114,7 +114,7 @@ export default function ContactPage() {
               </div>
               <p className="mb-4">Get instant responses on WhatsApp. Click below to chat now!</p>
               <a
-                href="https://wa.me/918465079013"
+                href="https://wa.me/919948027060"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center space-x-2 bg-white text-green-600 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-all"
@@ -172,7 +172,7 @@ export default function ContactPage() {
                     value={formData.phone}
                     onChange={handleChange}
                     className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all"
-                    placeholder="+1 234 567 8900"
+                    placeholder="+91 8465079013"
                   />
                 </div>
               </div>

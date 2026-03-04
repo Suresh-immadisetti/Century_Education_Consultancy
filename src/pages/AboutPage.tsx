@@ -36,23 +36,29 @@ const values = [
 ];
 
 const team = [
+    {
+    name: 'Prof. Bailadugu Prasad',
+    role: 'Founder & CEO',
+    experience: '20+ Years',
+    image: 'https://www.freepik.com/free-photo/smiling-young-male-professional-standing-with-arms-crossed-while-making-eye-contact-against-isolated-background_27507898.htm#fromView=search&page=1&position=1&uuid=b72de1d9-e71f-4263-bfc5-b51e51243eda&query=+professionals'
+  },
   {
     name: 'Dr. Ajay Miriyal',
     role: 'Founder & CEO',
-    experience: '20+ Years',
-    image: 'https://images.pexels.com/photos/5212317/pexels-photo-5212317.jpeg?auto=compress&cs=tinysrgb&w=400'
+    experience: '18+ Years',
+    image: 'https://www.freepik.com/free-photo/young-doctor-getting-ready-work_25961233.htm#fromView=search&page=1&position=15&uuid=3a3062d7-ced9-4dad-bbc9-c6ba7cc3be77&query=doctor'
   },
   {
     name: 'Prof. Venkat Katikala',
     role: 'Academic Director',
     experience: '15+ Years',
-    image: 'https://images.pexels.com/photos/5212323/pexels-photo-5212323.jpeg?auto=compress&cs=tinysrgb&w=400'
+    image: 'https://www.freepik.com/free-photo/man-working-night_5398817.htm#fromView=search&page=1&position=0&uuid=22ad72bd-e710-44e6-889e-59b3c309ec8f&query=software+engineer'
   },
   {
     name: 'Prof. Immadisetti Suresh',
     role: 'Visa Specialist',
     experience: '12+ Years',
-    image: 'https://images.pexels.com/photos/5212316/pexels-photo-5212316.jpeg?auto=compress&cs=tinysrgb&w=400'
+    image: 'https://www.freepik.com/free-photo/portrait-young-indian-top-manager-t-shirt-tie-crossed-arms-smiling-white-isolated-wall_18133472.htm#fromView=search&page=1&position=1&uuid=f3d2341b-d9c8-4a13-b884-cd84a7a3382c&query=professinal'
   }
 ];
 
