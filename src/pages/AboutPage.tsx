@@ -36,29 +36,29 @@ const values = [
 ];
 
 const team = [
-    {
+  {
     name: 'Prof. Bailadugu Prasad',
     role: 'Founder & CEO',
     experience: '20+ Years',
-    image: 'https://www.freepik.com/free-photo/smiling-young-male-professional-standing-with-arms-crossed-while-making-eye-contact-against-isolated-background_27507898.htm#fromView=search&page=1&position=1&uuid=b72de1d9-e71f-4263-bfc5-b51e51243eda&query=+professionals'
+    image: 'https://images.unsplash.com/photo-1607746882042-944635dfe10e?auto=format&fit=crop&w=800&q=80'
   },
   {
     name: 'Dr. Ajay Miriyal',
-    role: 'Founder & CEO',
+    role: 'Medical Advisor',
     experience: '18+ Years',
-    image: 'https://www.freepik.com/free-photo/young-doctor-getting-ready-work_25961233.htm#fromView=search&page=1&position=15&uuid=3a3062d7-ced9-4dad-bbc9-c6ba7cc3be77&query=doctor'
+    image: 'https://images.unsplash.com/photo-1582750433449-648ed127bb54?auto=format&fit=crop&w=800&q=80'
   },
   {
     name: 'Prof. Venkat Katikala',
     role: 'Academic Director',
     experience: '15+ Years',
-    image: 'https://www.freepik.com/free-photo/man-working-night_5398817.htm#fromView=search&page=1&position=0&uuid=22ad72bd-e710-44e6-889e-59b3c309ec8f&query=software+engineer'
+    image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=800&q=80'
   },
   {
     name: 'Prof. Immadisetti Suresh',
     role: 'Visa Specialist',
     experience: '12+ Years',
-    image: 'https://www.freepik.com/free-photo/portrait-young-indian-top-manager-t-shirt-tie-crossed-arms-smiling-white-isolated-wall_18133472.htm#fromView=search&page=1&position=1&uuid=f3d2341b-d9c8-4a13-b884-cd84a7a3382c&query=professinal'
+    image: 'https://images.unsplash.com/photo-1556157382-97eda2d62296?auto=format&fit=crop&w=800&q=80'
   }
 ];
 
@@ -158,31 +158,52 @@ export default function AboutPage() {
 
           {/* Our Values */}
           <div className="mb-20">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 text-center mb-12">
-              Our Core Values
-            </h2>
-            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-              {values.map((value, index) => {
-                const Icon = value.icon;
-                return (
-                  <div key={index} className="text-center group">
-                    <div className={`inline-flex p-4 bg-gradient-to-r ${value.color} rounded-2xl mb-6 group-hover:scale-110 transition-transform group-hover:rotate-3`}>
-                      <Icon className="h-8 w-8 text-white" />
-                    </div>
-                    <h3 className="text-xl font-bold text-gray-900 mb-3">{value.title}</h3>
-                    <p className="text-gray-600">{value.description}</p>
-                  </div>
-                );
-              })}
+  <h2 className="text-3xl md:text-4xl font-bold text-gray-900 text-center mb-12">
+    Meet Our Leadership Team
+  </h2>
+
+  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-8">
+    {team.map((member, index) => (
+      <div
+        key={index}
+        className="group bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all"
+      >
+        <div className="relative h-64 overflow-hidden">
+          <img
+            src={member.image}
+            alt={member.name}
+            className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+          />
+          <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+          <div className="absolute bottom-4 left-4 text-white">
+            <div className="text-sm font-medium bg-blue-600 inline-block px-3 py-1 rounded-full mb-2">
+              {member.experience}
             </div>
           </div>
+        </div>
+
+        <div className="p-6 text-center">
+          <h3 className="text-xl font-bold text-gray-900 mb-1">
+            {member.name}
+          </h3>
+          <p className="text-blue-600 font-medium mb-3">
+            {member.role}
+          </p>
+          <p className="text-gray-600 text-sm">
+            Dedicated to helping students achieve their international education dreams.
+          </p>
+        </div>
+      </div>
+    ))}
+  </div>
+</div>
 
           {/* Team Section */}
           <div className="mb-20">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 text-center mb-12">
               Meet Our Leadership Team
             </h2>
-            <div className="grid md:grid-cols-3 gap-8">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-8">
               {team.map((member, index) => (
                 <div key={index} className="group bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all">
                   <div className="relative h-64 overflow-hidden">
