@@ -47,7 +47,7 @@ export default function WhatsAppPopup() {
             </p>
             
             <a
-              href={`https://wa.me/918465079013?text=${encodeURIComponent(whatsappMessage)}`}
+              href={`https://wa.me/919948027060?text=${encodeURIComponent(whatsappMessage)}`}
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center justify-center space-x-2 bg-green-500 text-white px-4 py-3 rounded-lg hover:bg-green-600 transition-all w-full font-medium"

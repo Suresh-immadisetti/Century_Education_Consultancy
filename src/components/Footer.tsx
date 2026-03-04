@@ -171,15 +171,15 @@ export default function Footer() {
                 <Phone className="h-5 w-5 text-blue-500 mt-1 group-hover:scale-110 transition-transform" />
                 <div>
                   <p className="text-white font-medium">Phone</p>
+                  <p className="text-gray-400">+91 8465079013</p>
                   <p className="text-gray-400">+91 9640497146</p>
-                  <p className="text-gray-400">+91 9948027060</p>
                 </div>
               </li>
               <li className="flex items-start space-x-3 group">
                 <Mail className="h-5 w-5 text-purple-500 mt-1 group-hover:scale-110 transition-transform" />
                 <div>
                   <p className="text-white font-medium">Email</p>
-                  <p className="text-gray-400">info@centuryedu.com</p>
+                  <p className="text-gray-400">centuryeducationconsultancy@gmail.com</p>
                 </div>
               </li>
               <li className="flex items-start space-x-3 group">
