@@ -53,19 +53,42 @@ export default function Footer() {
               Your trusted partner for overseas education. Helping students achieve their dreams since 2008.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="bg-white/10 p-2 rounded-lg hover:bg-blue-600 hover:text-white transition-all">
-                <Facebook className="h-5 w-5" />
-              </a>
-              <a href="#" className="bg-white/10 p-2 rounded-lg hover:bg-blue-400 hover:text-white transition-all">
-                <Twitter className="h-5 w-5" />
-              </a>
-              <a href="#" className="bg-white/10 p-2 rounded-lg hover:bg-pink-600 hover:text-white transition-all">
-                <Instagram className="h-5 w-5" />
-              </a>
-              <a href="#" className="bg-white/10 p-2 rounded-lg hover:bg-blue-700 hover:text-white transition-all">
-                <Linkedin className="h-5 w-5" />
-              </a>
-            </div>
+  <a 
+    href="https://www.facebook.com/share/1F8QYC9tWw/" 
+    target="_blank"
+    rel="noopener noreferrer"
+    className="bg-white/10 p-2 rounded-lg hover:bg-blue-600 hover:text-white transition-all"
+  >
+    <Facebook className="h-5 w-5" />
+  </a>
+
+  <a 
+    href="https://twitter.com/" 
+    target="_blank"
+    rel="noopener noreferrer"
+    className="bg-white/10 p-2 rounded-lg hover:bg-blue-400 hover:text-white transition-all"
+  >
+    <Twitter className="h-5 w-5" />
+  </a>
+
+  <a 
+    href="https://www.instagram.com/centuryeducationconsultancy?utm_source=qr&igsh=ZXhrZjBuM2lneGY4" 
+    target="_blank"
+    rel="noopener noreferrer"
+    className="bg-white/10 p-2 rounded-lg hover:bg-pink-600 hover:text-white transition-all"
+  >
+    <Instagram className="h-5 w-5" />
+  </a>
+
+  <a 
+    href="https://www.linkedin.com/" 
+    target="_blank"
+    rel="noopener noreferrer"
+    className="bg-white/10 p-2 rounded-lg hover:bg-blue-700 hover:text-white transition-all"
+  >
+    <Linkedin className="h-5 w-5" />
+  </a>
+</div>
           </div>
 
           {/* Quick Links - same as before */}
